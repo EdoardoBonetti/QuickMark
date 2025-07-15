@@ -2,13 +2,12 @@
 
 Quick install: install the addon package directly with pip from git:
 
-    python -m pip install  git+https://github.com/NGSolve/ngsolve-addon-template.git
-
+    python -m pip install  git+https://github.com/EdoardoBonetti/QuickMark.git
 
 **Alternative** needed for self-compiled NGSolve
 
     python -m pip install scikit-build-core pybind11_stubgen toml
-    python -m pip install --no-build-isolation git+https://github.com/NGSolve/ngsolve-addon-template.git
+    python -m pip install --no-build-isolation git+https://github.com/EdoardoBonetti/QuickMark.git
 
 
 test it:
@@ -19,13 +18,13 @@ Step-by-step installation:
 
 simple step-by-step installation using pip:
 
-    git clone https://github.com/NGSolve/ngsolve-addon-template.git
+    git clone git+https://github.com/EdoardoBonetti/QuickMark.git
     cd ngsolve-addon-template
     python -m pip install --no-build-isolation .
 
 alternative step-by-step installation using `cmake`:
 
-    git clone https://github.com/NGSolve/ngsolve-addon-template.git
+    git clone https://github.com/EdoardoBonetti/QuickMark.git
     cd ngsolve-addon-template
     mkdir build
     cd build

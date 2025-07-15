@@ -1,8 +1,9 @@
 # Here is the project metadata, adapt it to your needs
 [project]
-name = "afem"
+name = "quickmark"
 version = "0.0.1"
-description="A minimal example for an NGSolve addon"
+description="Python wrapper to the quicksort in DÖRFLER MARKING WITH MINIMAL CARDINALITY
+ IS A LINEAR COMPLEXITY PROBLEM by CARL-MARTIN PFEILER AND DIRK PRAETORIUS. The main cpp code is provided by them, while the wrapper is new"
 readme = "README.md"
 requires-python = ">=3.9"
 dynamic = ["dependencies"]

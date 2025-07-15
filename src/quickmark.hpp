@@ -1,5 +1,5 @@
-#ifndef NSQUICKMAK_HPP
-#define NSQUICKMAK_HPP
+#ifndef NSQUICKMARK_HPP
+#define NSQUICKMARK_HPP
 
 #include <vector>
 

@@ -8,7 +8,7 @@ project(${addon_name})
 include(ngsolve_addon.cmake)
 
 # change the source file arguments to your source files
-add_ngsolve_addon(${addon_name}  src/pythonbind.cpp src/quickmark.cpp)
+add_ngsolve_addon(${addon_name}  src/pythonbind.cpp src/quickmark.cpp) 
 
 # install the compiled python module and __init__.py ( don't change this )
 set(install_dir ${ADDON_INSTALL_DIR_PYTHON}/${addon_name})
