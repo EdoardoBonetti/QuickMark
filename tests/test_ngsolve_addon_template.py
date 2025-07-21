@@ -2,13 +2,20 @@ def test_import():
     # you need to import ngsolve before importing the extension
     # such that all runtime dependencies are loaded
     import ngsolve
-    import afem
+    import quickmark
 
 
-def test_my_function():
+def test_ComputeXStar():
     import ngsolve
-    import afem
+    import quickmark.quickmark as quickmark
+    import numpy as np
+    
+    _list = np.random.uniform( size= 10**3)
 
-    assert afem.my_function() == 1.0
-    assert afem.my_function(1.0) == 1.0
-    assert afem.my_function(2.0) == 4.0
+    perc = 0.3
+    xstar = quickmark.quickmark.ComputeXStar(_list,0.3)
+    upper = _list>= xstar
+    assert( np.sum(_list[upper])/np.sum(_list) >= perc )
+
+
+

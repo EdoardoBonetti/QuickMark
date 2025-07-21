@@ -1,3 +1,11 @@
+# QuickMark python wrapper
+The original code is can be found in:
+
+    DÖRFLER MARKING WITH MINIMAL CARDINALITY IS A LINEAR COMPLEXITY PROBLEM
+    
+    CARL-MARTIN PFEILER AND DIRK PRAETORIUS
+
+
 ## installing the addon project
 
 Quick install: install the addon package directly with pip from git:
