@@ -40,3 +40,18 @@ demos/.ipynb_checkpoints
 *egg-info
 _skbuild
 dist
+
+# Finder, Python and LaTeX build clutter
+.DS_Store
+__pycache__/
+*.pyc
+%OUTDIR%/
+*.aux
+*.bbl
+*.bcf
+*.blg
+*.fdb_latexmk
+*.fls
+*.run.xml
+*.toc
+*.synctex.gz
